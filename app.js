@@ -1,4 +1,3 @@
-/*console.log("hi");*/
 const textBox = document.getElementById("boxPid");
 const total = document.getElementById("total");
 let table = document.getElementById("table");
