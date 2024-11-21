@@ -1,4 +1,4 @@
-.container{
+.container {
     width: 800px;
     padding: 2rem;
     gap: 24px;
@@ -8,42 +8,50 @@
     backdrop-filter: blur(18.2px);
     margin: 2rem auto;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 
-    h1{
+    h1 {
         color: #f2f2f2;
         font-weight: 700;
         font-size: 2.3rem;
         margin-bottom: 20px;
     }
-    .grid-left{
+
+    .grid-left {
         grid-column-start: 1;
     }
 
 
-    .title{
+    .title {
         text-align: center;
-       
-    }
-    .grid-max{
-        grid-column:1/4;
+
     }
 
-    .grid-right{
+    .grid-max {
+        grid-column: 1/3;
+    }
+
+    .grid-right {
         grid-column-end: 3;
         justify-self: right;
-       
+
     }
 
- 
-.links{
-    display: flex;
-    justify-content: space-between;
-   
-}
-    .completions{
-       
+    
+
+    .links {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .completions {
+
         align-items: center;
-        
+
+    }
+
+    a {
+        text-decoration: none;
     }
 }
